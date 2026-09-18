@@ -1,6 +1,7 @@
 # dprint
 
 Auto Updating / Live Dumping External Printsploit
+# admin privileges aren't required but better for stability.
 
 ## Layout
 

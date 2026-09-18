@@ -21,36 +21,48 @@ dprint/
         └── hde64/             # small x86-64 length disassembler (vendored)
 ```
 
+#
+
 ## Clone
+
+```bash
 git clone https://github.com/f1en444/dprint.git
 cd dprint
+```
 
 ## Build
-Requirements
-Windows 10/11
-Visual Studio 2022
-MSBuild
-C++ Desktop Development workload
-Using Visual Studio
 
-Open dprint.sln in Visual Studio 2022.
+### Requirements
+
+* Windows 10/11
+* Visual Studio 2022
+* MSBuild
+* C++ Desktop Development workload
+
+### Using Visual Studio
+
+Open `dprint.sln` in Visual Studio 2022.
 
 Select:
 
-Configuration: Release
-Platform: x64
+* **Configuration:** `Release`
+* **Platform:** `x64`
 
-Then build the solution with Build → Build Solution.
+Then build the solution with **Build → Build Solution**.
 
-Using MSBuild
+### Using MSBuild
 
 From a Visual Studio Developer Command Prompt:
 
+```cmd
 msbuild dprint.sln /p:Configuration=Release /p:Platform=x64
+```
 
 The compiled executable will be located in:
 
+```text
 x64\Release\dprint.exe
+```
 
 ## Usage
 
